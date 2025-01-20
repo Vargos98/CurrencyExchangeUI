@@ -4,7 +4,7 @@ import profile from '../assets/react.svg'
 const Navbar = () => {
   return (
     <div className="max-w-screen-lg mt-10 mx-auto p-5 bg-red-200 h-[15vh] flex items-center justify-between rounded-lg">
-      <div className="left ml-20">
+      <div className="left ml-2">
         <img className='w-24' src={logo} alt="" />
       </div>
       <div className="right mr-10 flex items-center justify-center gap-5">
