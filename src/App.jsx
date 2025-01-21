@@ -15,15 +15,15 @@ const App = () => {
       currency: "Bitcoin",
       percentage: "37%",
       bal: "-2.5%",
-      color:"bg-yellow-500"
+      color:"bg-yellow-200"
     },
     {
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCE8Lgbhy4J9u-j0UgoXNIF_wC9XM0QPVi2w&s",
+      img: "https://images.seeklogo.com/logo-png/45/2/dai-dai-logo-png_seeklogo-452465.png",
       name: "DAI",
       currency: "Dai",
       percentage: "23%",
       bal: "+7.2%",
-      color:"bg-orange-500"
+      color:"bg-orange-200"
     },
     {
       img: "https://images.seeklogo.com/logo-png/32/2/ripple-xrp-logo-png_seeklogo-329736.png",
@@ -31,7 +31,7 @@ const App = () => {
       currency: "Ripple",
       percentage: "20%",
       bal: "-3.1%",
-      color:"bg-blue-300"
+      color:"bg-blue-200"
     },
     {
       img: "https://cryptologos.cc/logos/tether-usdt-logo.png",
@@ -39,12 +39,12 @@ const App = () => {
       currency: "Tether",
       percentage: "17%",
       bal: "+1.8%",
-      color:"bg-green-500"
+      color:"bg-green-200"
     },
   ];
   
 return (
-  <div className='max-w-screen-lg mx-auto bg-zinc-100 relative p-10'>
+  <div className='max-w-screen-lg mx-auto bg-white relative p-10'>
     <Navbar />
 
     <div className="flex">
